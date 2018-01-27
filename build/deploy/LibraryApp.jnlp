@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LibraryApp.jnlp">
+  <information>
+    <title>LibraryApp</title>
+    <vendor>may.polikarpova</vendor>
+    <description>Library</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LibraryApp.jar" size="22061" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.Main"  name="Library" />
+  <update check="background"/>
+</jnlp>
